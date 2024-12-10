@@ -21,6 +21,26 @@
       "process" : "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app\/Contents\/MacOS\/ArqAgent",
       "protocol" : "tcp",
       "remote-hosts" : "www.arqbackup.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613816675.900718,
+      "modificationDate" : 1613816675.900718,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app\/Contents\/MacOS\/ArqAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "s3.eu-west-3.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613816675.900718,
+      "modificationDate" : 1613816675.900718,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app\/Contents\/MacOS\/ArqAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "dropboxapi.com"
     }
   ]
 }
